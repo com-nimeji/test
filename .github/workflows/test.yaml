@@ -1,0 +1,7 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  test-job:
+    runs-on: com-nimeji-runner
+    steps:
+      - run: echo test
